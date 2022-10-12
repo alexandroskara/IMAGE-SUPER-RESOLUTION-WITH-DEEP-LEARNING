@@ -9,12 +9,12 @@ Purpose of this project is to create a deep network model which is capable to pr
 This project has been implemented by two sub networks. 
 
 -The first network is a CNN. 
-For this network i have implemented a research from Dong, Chao, et al. [0]. In this research they have use a deep convolutional network (CNN) for image super resulution. A graphical approach of this network is given below :
+For this network i have implemented a research from Dong, Chao, et al. [1]. In this research they have use a deep convolutional network (CNN) for image super resulution. A graphical approach of this network is given below :
 
 ![image](https://user-images.githubusercontent.com/17177043/194945791-ffc6aaf6-e0a7-409e-8920-79902baa3dc3.png)
  
 -The second network is a LISTA network.
-For this network i have implemented a research from K. Gregor and Y. Le Cun [1]. In this research they have implemented the ISTA algorithm as a network which can compute the sparse representation of the features. A graphical approach of this network is given below :
+For this network i have implemented a research from K. Gregor and Y. Le Cun [2]. In this research they have implemented the ISTA algorithm as a network which can compute the sparse representation of the features. A graphical approach of this network is given below :
 
 ![image](https://user-images.githubusercontent.com/17177043/194948334-d342065a-5f93-4024-bc99-728837bf7c98.png)
 
@@ -65,12 +65,21 @@ _**X4 SCALE:**_
 ![image](https://user-images.githubusercontent.com/17177043/195444629-061e2ab5-dbfb-48fa-99b8-b6dd4a6e1c66.png)
 
 
+PSNR results compare with other researches:
+
+![image](https://user-images.githubusercontent.com/17177043/195448248-3cf16ef7-9c52-4f0c-9964-311ec7424223.png)
+
+
 
 HELP INFO :
 
-[0] Dong, Chao, et al. "Image super-resolution using deep convolutional networks." IEEE transactions on pattern analysis and machine intelligence 38.2 (2016): 295-307. https://arxiv.org/pdf/1501.00092.pdf
+[1] Dong, Chao, et al. "Image super-resolution using deep convolutional networks." IEEE transactions on pattern analysis and machine intelligence 38.2 (2016): 295-307. https://arxiv.org/pdf/1501.00092.pdf
 
-[1]  Gregor, Karol, and Yann LeCun. "Learning fast approximations of sparse coding." Proceedings of the 27th international conference on international conference on machine learning. 2010. https://icml.cc/Conferences/2010/papers/449.pdf
+[2]  Gregor, Karol, and Yann LeCun. "Learning fast approximations of sparse coding." Proceedings of the 27th international conference on international conference on machine learning. 2010. https://icml.cc/Conferences/2010/papers/449.pdf
+
+[3] Timofte, Radu, Vincent De Smet, and Luc Van Gool. "A+: Adjusted anchored neighborhood regression for fast super-resolution." Asian conference on computer vision. Springer, Cham, 2014.
+
+[4] Dong, Chao, et al. "Learning a deep convolutional network for image superresolution." European conference on computer vision. Springer, Cham, 2014.
 
 
 
