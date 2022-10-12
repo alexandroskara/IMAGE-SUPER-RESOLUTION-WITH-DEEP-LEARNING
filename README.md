@@ -43,6 +43,26 @@ The network of this project can be represanted like :
 
 ------ END OF MY MODEL ------
 
+For training  i have used the test91 Dataset.
+For testing i have used two datasets. More specific the BSDS100 and Set 14  datasets. 
+
+Link for datasets : https://www.kaggle.com/datasets/msahebi/super-resolution
+
+The model has been tested for thrre different downscale rates.
+
+**RESULTS**
+
+_**X2 SCALE:**_
+
+![image](https://user-images.githubusercontent.com/17177043/195444342-20b9d487-c2a7-409c-9e6a-1f7a15a9f458.png)
+
+_**X3 SCALE:**_
+
+![image](https://user-images.githubusercontent.com/17177043/195444604-fb1cc603-4ae4-4d44-a219-0683ed5dace5.png)
+
+_**X4 SCALE:**_
+
+![image](https://user-images.githubusercontent.com/17177043/195444629-061e2ab5-dbfb-48fa-99b8-b6dd4a6e1c66.png)
 
 
 
